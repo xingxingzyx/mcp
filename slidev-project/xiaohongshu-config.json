@@ -1,0 +1,22 @@
+{
+  "name": "xiaohongshu-auto-publish-config",
+  "version": "1.0.0",
+  "description": "小红书自动发布配置",
+  "mcpServers": {
+    "xiaohongshu": {
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": ".",
+      "env": {}
+    }
+  },
+  "publishDefaults": {
+    "defaultTags": [
+      "技术分享",
+      "Slidev",
+      "学习笔记"
+    ],
+    "autoExtractImages": true,
+    "saveDraftFirst": false
+  }
+}
